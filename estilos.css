@@ -1,0 +1,83 @@
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: rgba(4, 44, 86, 0.478);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    display: flex;
+    height: 70px;
+    background-color: rgb(0, 96, 174);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 60px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+nav a{
+ font-weight: 600;
+ padding-right: 10px;
+}
+
+nav a:hover {
+    color: white;
+}
+/* de acá para arriba es el header */
+main {
+    text-align: center;
+}
+
+
+.banner {
+    width: 1000px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.seccion {
+    background-color: rgb(0, 96, 174);
+    margin: 30px;
+    padding: 20px;
+    border: solid black;
+    height: 1040px;
+    width: 1040px;
+    
+}
+
+.cajaautos div {
+    width: 500px;
+    height: 500px;
+    margin: 10px 10px 10px 10px;
+    float: left;
+    
+}
+
+.fotosautos {
+    height: 270px;
+}
+
+.pie {
+    clear: both;  /*MUY importa esto en el final para poder acomodar todas los "float"*/
+    background-color: rgb(0, 96, 174);
+    text-align: center;
+    padding: 20px;
+}
