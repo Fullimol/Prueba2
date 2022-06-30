@@ -1,3 +1,7 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
 
 body {
     font-family: sans-serif;
@@ -39,12 +43,11 @@ nav a:hover {
     color: white;
 }
 /* de acá para arriba es el header */
-main {
-    text-align: center;
-}
+
 
 
 .banner {
+    margin-bottom: 25px;
     width: 1000px;
     height: 200px;
     margin-top: 20px;
@@ -64,6 +67,7 @@ main {
 }
 
 .cajaautos div {
+    text-align: center;
     width: 500px;
     height: 500px;
     margin: 10px 10px 10px 10px;
@@ -73,6 +77,8 @@ main {
 
 .fotosautos {
     height: 270px;
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
 
 .pie {
@@ -80,4 +86,19 @@ main {
     background-color: rgb(0, 96, 174);
     text-align: center;
     padding: 20px;
+}
+
+.marca {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    height: 60px;
+}
+
+.parrafo1 {
+    margin-top: 20px;
+}
+
+.cajaautos p {
+    margin-left: 10px;
+    margin-right: 10px;
 }
