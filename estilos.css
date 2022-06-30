@@ -63,7 +63,7 @@ nav a:hover {
     border: solid black;
     height: 1040px;
     width: 1040px;
-    
+    float: left;
 }
 
 .cajaautos div {
@@ -72,12 +72,11 @@ nav a:hover {
     height: 500px;
     margin: 10px 10px 10px 10px;
     float: left;
-    
 }
 
 .fotosautos {
     height: 270px;
-    margin-top: 5px;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 
@@ -101,4 +100,27 @@ nav a:hover {
 .cajaautos p {
     margin-left: 10px;
     margin-right: 10px;
+}
+
+aside {
+    border: solid black;
+    margin-top: 30px;
+    margin-left: 5px;
+    background-color: rgb(0, 96, 174);
+    width: 330px;
+    height: 1080px;
+    float: left;
+}
+
+.afuera {
+    height: 233px;
+    margin-bottom: 20px;
+}
+
+.direc {
+    height: 248px;
+}
+
+ul {
+    margin-left: 30px;
 }
